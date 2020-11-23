@@ -94,7 +94,7 @@ $(".static_pages.index").ready(function(){
   };
 
   var refreshTasks = function() {
-    getAllTasks(function(response) {
+    indexTasks(function(response) {
       taskList = response.tasks;
       filterTasks();
       updateHelperButtons();
