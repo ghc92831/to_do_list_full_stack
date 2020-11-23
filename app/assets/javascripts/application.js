@@ -16,9 +16,4 @@
 //= require popper
 //= require bootstrap
 //= require requests/index
-//= require static_pages.js
-
-require("@rails/ujs").start()
-require("turbolinks").start()
-require("@rails/activestorage").start()
-require("channels")
+//= require static_pages
